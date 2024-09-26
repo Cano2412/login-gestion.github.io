@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar mensajes de WhatsApp</title>
+    <link rel="stylesheet" href="css/homestyle.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="img/logo.png" alt="Logo">
+            <ul>
+                <li><a href="{{ url_for('enviar') }}">Sobre la IA</a></li>
+                <li><a href="{{ url_for('informes') }}">Informes</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>No pierdas mas clientes <br>por las largas filas en caja</h1>
+        <button><a href="{{ url_for('enviar') }}">CONTACTANOS!</a></button>
+    </section>
+
+    <section id="quienes-somos">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">Flash Buy!</span></h2>
+                <p>Somos una empresa de servicios en implementación de inteligencia articial que ofrece soluciones para mejorar la interacción de las empresas con sus clientes, prospectos y usuarios!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestro Sistema </h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Uso de IA en el proceso</h3>
+                    <p>Nuestro sistema utiliza un avanzado sistema de inteligencia articial para la detección de productos haciendo uso de tecnologias como visión por computadora.  </p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>El sistema es muy facil de usar</h3>
+                    <p>El usuario solo tiene que colocar los productos dentro del carrito de supermercado y este en automatico detecta que producto se ha ingresado y muestra toda su información en la pantalla.</p>
+                    <button id="btnDescargar">Descargar</button>
+                </div>
+                <div class="carta">
+                    <h3>Aplicación mobil integrada</h3>
+                    <p>El sistema cuenta con una aplicación mobil para el cliente, desde el cual el usuario puede escanear el qr generado en el carrito y pagar desde de forma digital. </p>
+                    <button>+ Info</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <ul>
+                    <li>✅ Elimina las largas filas</li>
+                    <li>✅ IA para la detección de productos</li>
+                    <li>✅ Mejor manejo de inventarios</li>
+                    <li>✅ Pagos rapidos y seguros</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; IA 2024 Flash Buy</p>
+        </div>
+    </footer>
+
+</body>
+</html>
